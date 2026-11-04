@@ -1,0 +1,268 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1793810567477934, "dur":22589, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567500606, "dur":571, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567501344, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1793810567501957, "dur":178, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1793810567502217, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1793810567502539, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1793810567503689, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1793810567501207, "dur":2845, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567504054, "dur":250257, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567754313, "dur":317, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567754907, "dur":1742, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1793810567502512, "dur":1618, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1793810567504141, "dur":1115, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1793810567505257, "dur":4580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1793810567509846, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1793810567535887, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1793810567538174, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567541624, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567545782, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567549228, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567553770, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567558741, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1793810567558810, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567563364, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567567614, "dur":8593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1793810567614714, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1793810567576317, "dur":38500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1793810567614929, "dur":139384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1793810567502321, "dur":1744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1793810567504077, "dur":5456, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1793810567511506, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1793810567510819, "dur":787, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":2, "ts":1793810567511616, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1793810567511734, "dur":8485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1793810567520221, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1793810567520513, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\zapat\\OneDrive\\Desktop\\Proyecto4Escenas_UNI\\Proyecto4Escenas\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1793810567520690, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\zapat\\OneDrive\\Desktop\\Proyecto4Escenas_UNI\\Proyecto4Escenas\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1793810567521089, "dur":485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\zapat\\OneDrive\\Desktop\\Proyecto4Escenas_UNI\\Proyecto4Escenas\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1793810567521643, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player0011d9e5-inputdata.json" }}
+,{ "pid":12345, "tid":2, "ts":1793810567511614, "dur":10381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1793810567522789, "dur":102, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1793810567524388, "dur":224854, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1793810567753033, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1793810567753032, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1793810567753278, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1793810567502321, "dur":1759, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1793810567504088, "dur":1506, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1793810567505595, "dur":4172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1793810567509803, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1793810567509785, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1793810567581684, "dur":138, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1793810567581841, "dur":17521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1793810567599540, "dur":154758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1793810567502522, "dur":1628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1793810567504159, "dur":1418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1793810567505578, "dur":4270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1793810567509867, "dur":303, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1793810567509855, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1793810567552232, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1793810567554677, "dur":4967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1793810567559747, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1793810567564846, "dur":5994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1793810567570981, "dur":11022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1793810567582104, "dur":19380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1793810567601560, "dur":152747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1793810567502674, "dur":1535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1793810567504220, "dur":768, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1793810567504989, "dur":4587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1793810567509596, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1793810567509582, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1793810567511054, "dur":6132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1793810567517270, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1793810567517266, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1793810567517673, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1793810567519785, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567519783, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567520278, "dur":16021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567536391, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567539741, "dur":5286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567545143, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567548071, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567551383, "dur":5757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567557255, "dur":4396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567561767, "dur":4588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567566514, "dur":6672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567573307, "dur":11533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1793810567584960, "dur":15744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1793810567600781, "dur":153521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1793810567502825, "dur":1440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1793810567504266, "dur":5542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1793810567509827, "dur":522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1793810567509815, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1793810567578370, "dur":509, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1793810567578895, "dur":19623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1793810567598631, "dur":155638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1793810567502435, "dur":1660, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1793810567504102, "dur":1256, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1793810567505359, "dur":4507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1793810567509873, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1793810567575516, "dur":9261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1793810567584960, "dur":30594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1793810567615718, "dur":138566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1793810567502481, "dur":1624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1793810567504113, "dur":978, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1793810567505091, "dur":4615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1793810567509713, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1793810567534121, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1793810567539281, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567543229, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567546926, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567550178, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567553904, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567557636, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567560404, "dur":4900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567565371, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567570339, "dur":5420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1793810567575902, "dur":123, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1793810567576033, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1793810567580036, "dur":80846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1793810567660953, "dur":93324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567502706, "dur":1516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567504222, "dur":5714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567509937, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1793810567536786, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1793810567538264, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567540661, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567547083, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567543269, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567547254, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567550465, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567558571, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567554302, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567558747, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1793810567558814, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567562829, "dur":3843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567566740, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567572460, "dur":9869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1793810567582417, "dur":14378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1793810567597069, "dur":157210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567502591, "dur":1575, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567504176, "dur":1187, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567505364, "dur":4204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567509585, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567511657, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1793810567514736, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1793810567514733, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1793810567515793, "dur":2040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1793810567517890, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1793810567518050, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1793810567519767, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567519765, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567520218, "dur":5686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567526095, "dur":5447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567531647, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567534785, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567537255, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567540573, "dur":4866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567545651, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567548159, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567551192, "dur":4488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567555781, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567559614, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567563701, "dur":5582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567574289, "dur":194, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1793810567569367, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1793810567574602, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":10, "ts":1793810567576544, "dur":5788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1793810567582401, "dur":9496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1793810567591964, "dur":162341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1793810567502615, "dur":1570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1793810567504194, "dur":913, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1793810567505108, "dur":4684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1793810567509801, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1793810567573174, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1793810567576106, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1793810567580063, "dur":8495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1793810567588726, "dur":11971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1793810567600750, "dur":153536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1793810567502775, "dur":1471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1793810567504246, "dur":5632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1793810567509897, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1793810567509884, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1793810567537783, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1793810567540064, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567547095, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1793810567543406, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567547273, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567550255, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567554103, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567558294, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567562012, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567567021, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567572992, "dur":9172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1793810567582242, "dur":7620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1793810567589922, "dur":164384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1793810567502742, "dur":1494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1793810567504237, "dur":5682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1793810567509929, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1793810567536219, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1793810567538670, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567541775, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567545959, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567549654, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567553392, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567556313, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567559954, "dur":4943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567564989, "dur":5026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567575904, "dur":131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1793810567570095, "dur":5949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1793810567576107, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1793810567582435, "dur":14363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1793810567596932, "dur":157372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1793810567502798, "dur":1458, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1793810567504256, "dur":5433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1793810567509699, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1793810567521070, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1793810567525503, "dur":10637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567536235, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567538749, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567541607, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567546233, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567549417, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567552549, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567556240, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567559762, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567565012, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567575805, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1793810567570131, "dur":5870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1793810567576090, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":14, "ts":1793810567579732, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1793810567581975, "dur":14814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/level4" }}
+,{ "pid":12345, "tid":14, "ts":1793810567596930, "dur":157341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1793810567502842, "dur":1433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1793810567504275, "dur":5544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1793810567509824, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1793810567562194, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1793810567563383, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1793810567567350, "dur":5925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1793810567573329, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1793810567573327, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1793810567573546, "dur":75334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1793810567648981, "dur":105309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1793810567502892, "dur":1388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1793810567504281, "dur":5381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1793810567509695, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1793810567509678, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1793810567513267, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1793810567515194, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1793810567515888, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1793810567518062, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1793810567519171, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1793810567520464, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas.exe" }}
+,{ "pid":12345, "tid":16, "ts":1793810567523017, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1793810567523867, "dur":5586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1793810567529839, "dur":6499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567536431, "dur":4579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567541148, "dur":4276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567545610, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567549366, "dur":3957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567553461, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567558098, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567562156, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567566771, "dur":11642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1793810567578577, "dur":21412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/zapat/OneDrive/Apps/Cosa3/Proyecto4Escenas_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1793810567600213, "dur":154060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1793810567758134, "dur":1308, "ph":"X", "name": "ProfilerWriteOutput" }
+,
