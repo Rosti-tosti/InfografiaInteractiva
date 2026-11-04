@@ -22,6 +22,14 @@ namespace Pathfinding
             puertoManualSeleccionado = null;
             mostrarPanelPuerto = true;
         }
+
+        /// <summary>El sensor sobrevive a los cambios de escena para no cerrar/reabrir el COM entre pantallas.</summary>
+        public static ArcadeGunInput ObtenerOCrear()
+        {
+            if (Instancia != null) return Instancia;
+            var host = new GameObject("ControlSensor_Persistente");
+            return host.AddComponent<ArcadeGunInput>();
+        }
 #if UNITY_EDITOR_WIN || UNITY_STANDALONE_WIN
         [StructLayout(LayoutKind.Sequential)]
         struct PuntoCursorWindows { public int X; public int Y; }
@@ -108,6 +116,7 @@ namespace Pathfinding
         float proximoLogMuestra;
         bool avisoSinDatos;
         float ultimoDatoSerial = -10f;
+        float proximoIntentoPuerto;
         UdpClient receptorOSC;
         float ultimoPaqueteOSC = -10f;
         bool serialActivo;
@@ -119,7 +128,16 @@ namespace Pathfinding
         bool origenVentanaCursorCalculado;
         Vector2 origenVentanaCursor;
 
-        void Awake() { Instancia = this; }
+        void Awake()
+        {
+            if (Instancia != null && Instancia != this)
+            {
+                Destroy(this);
+                return;
+            }
+            Instancia = this;
+            DontDestroyOnLoad(gameObject);
+        }
 
         void Start()
         {
@@ -146,7 +164,15 @@ namespace Pathfinding
                 CambiarPuertoManual(siguientePuerto);
             }
             if (Input.GetKeyDown(KeyCode.F8)) mostrarPanelPuerto = !mostrarPanelPuerto;
-            if (usarArduino && serialActivo) LeerSerial();
+            if (usarArduino)
+            {
+                if (serialActivo) LeerSerial();
+                else if (Time.realtimeSinceStartup >= proximoIntentoPuerto)
+                {
+                    proximoIntentoPuerto = Time.realtimeSinceStartup + 2f;
+                    AbrirPuerto();
+                }
+            }
             if (usarOSC) LeerOSC();
 
             string puertoSiguientePorClic = string.Equals(puerto, "COM3", StringComparison.OrdinalIgnoreCase) ? "COM4" : "COM3";
@@ -206,10 +232,12 @@ namespace Pathfinding
             GUI.Box(panel, GUIContent.none);
             GUI.Label(new Rect(panel.x + 8f, panel.y + 4f, panel.width - 16f, 20f),
                 "SENSOR " + puerto + " · " + estado);
-            if (!string.IsNullOrEmpty(errorPuerto))
+            string detalle = !string.IsNullOrEmpty(errorPuerto) ? errorPuerto :
+                serialActivo && !arduinoConMuestras ? "PUERTO ABIERTO · SIN DATOS DEL SENSOR" : "";
+            if (!string.IsNullOrEmpty(detalle))
             {
-                string error = errorPuerto.Length > 32 ? errorPuerto.Substring(0, 32) + "…" : errorPuerto;
-                GUI.Label(new Rect(panel.x + 8f, panel.y + 24f, panel.width - 16f, 18f), error);
+                if (detalle.Length > 34) detalle = detalle.Substring(0, 34) + "…";
+                GUI.Label(new Rect(panel.x + 8f, panel.y + 24f, panel.width - 16f, 18f), detalle);
             }
 
             string siguientePuerto = string.Equals(puerto, "COM3", StringComparison.OrdinalIgnoreCase) ? "COM4" : "COM3";
@@ -307,6 +335,7 @@ namespace Pathfinding
                 errorPuerto = e.GetBaseException().Message;
                 Debug.LogWarning("No se pudo abrir " + puerto + ": " + errorPuerto);
                 CerrarPuerto();
+                proximoIntentoPuerto = Time.realtimeSinceStartup + 2f;
             }
         }
 
@@ -502,7 +531,13 @@ namespace Pathfinding
                 }
                 if (buffer.Length > 1024) buffer.Clear();
             }
-            catch (Exception e) { Debug.LogWarning("Se perdió la conexión con la pistola: " + e.GetBaseException().Message); CerrarPuerto(); }
+            catch (Exception e)
+            {
+                errorPuerto = e.GetBaseException().Message;
+                Debug.LogWarning("Se perdió la conexión con la pistola: " + errorPuerto);
+                CerrarPuerto();
+                proximoIntentoPuerto = Time.realtimeSinceStartup + 2f;
+            }
         }
 
         bool ParsearVector(string linea, out float x, out float y, out float z)

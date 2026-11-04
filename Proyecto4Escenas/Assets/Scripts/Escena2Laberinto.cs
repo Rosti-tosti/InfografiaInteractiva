@@ -82,8 +82,7 @@ namespace Pathfinding
             vista = fondo.AddComponent<RawImage>();
             vista.texture = textura; vista.raycastTarget = false;
 
-            control = GetComponent<ArcadeGunInput>();
-            if (control == null) control = gameObject.AddComponent<ArcadeGunInput>();
+            control = ArcadeGunInput.ObtenerOCrear();
             control.usarArduino = usarArduino;
             control.puerto = puertoArduino;
             control.baudRate = baudArduino;

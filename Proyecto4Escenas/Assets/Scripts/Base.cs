@@ -513,8 +513,7 @@ namespace Pathfinding
 
         protected virtual void Awake()
         {
-            var entrada = GetComponent<ArcadeGunInput>();
-            if (entrada == null) entrada = gameObject.AddComponent<ArcadeGunInput>();
+            ArcadeGunInput.ObtenerOCrear();
             var cam = Camera.main;
             if (cam != null)
             {

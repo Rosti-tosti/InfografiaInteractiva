@@ -47,8 +47,7 @@ namespace Pathfinding
         void Start()
         {
             todas = new[] { s00Bienvenida, s01AsignandoGuia, s02Cargando, s03ByteHola, s04ByteEspecialista, s05Axel, s06Menu };
-            control = GetComponent<ArcadeGunInput>();
-            if (control == null) control = gameObject.AddComponent<ArcadeGunInput>();
+            control = ArcadeGunInput.ObtenerOCrear();
             control.usarArduino = usarArduino;
             control.puerto = puertoArduino;
             control.baudRate = baudArduino;
